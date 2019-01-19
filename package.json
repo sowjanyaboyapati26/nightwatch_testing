@@ -1,0 +1,20 @@
+{
+  "name": "nwintro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch --env local",
+    "e2e-setup": "selenium-standalone install",
+    "nightwatch":"nightwatch -c nightwatch.conf.js -e local"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+
+"chromedriver": "^2.33.2",
+"env2": "^2.1.1",
+"selenium-server": "^3.8.1"
+  }
+}

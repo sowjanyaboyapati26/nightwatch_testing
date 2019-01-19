@@ -1,0 +1,23 @@
+11:43:10.669 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+11:43:10.785 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2019-01-19 11:43:10.891:INFO::main: Logging initialized @706ms to org.seleniumhq.jetty9.util.log.StdErrLog
+11:43:11.387 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+11:43:11.549 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+11:43:11.961 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "chromeOptions": {
+    "args": [
+      "Mozilla\u002f5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit\u002f534.46\n            (KHTML, like Gecko) Version\u002f5.1 Mobile\u002f9A334 Safari\u002f7534.48.3",
+      "--window-size=640,1136"
+    ]
+  },
+  "javascriptEnabled": true,
+  "name": "Bing Test"
+}
+11:43:11.964 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.45.615355 (d5698f682d8b2742017df6c81e0bd8e6a3063189) on port 12229
+Only local connections are allowed.
+11:43:14.559 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+11:43:15.148 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 81414d346809ec061043722135b5144d (org.openqa.selenium.chrome.ChromeDriverService)
+11:43:16.108 INFO [ActiveSessions$1.onStop] - Removing session 81414d346809ec061043722135b5144d (org.openqa.selenium.chrome.ChromeDriverService)
